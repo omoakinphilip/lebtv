@@ -9,8 +9,9 @@
 }
 body{
     margin-top: 0px;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
 }
 .carousel-inner{
     margin-left: 350px;
@@ -20,7 +21,7 @@ body{
 .header-container-wrapper{
     background-image: url("coffeebg.jpeg");
     height: 120px;
-    width: 100%;
+    width: 1000px;
     display: flex;
     column-gap: 100px;
     justify-content: center;
@@ -86,5 +87,5 @@ h4.staff-name{
     justify-content: center;
     background-image: url(coffeebg.jpeg);
     height: 100px;
-    width: 100%;
+    width: 1000px;
 }
