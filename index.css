@@ -14,22 +14,21 @@ body{
     margin-bottom: 0px;
 }
 .carousel-inner{
-    margin-left: 350px;
+    margin-left: 150px;
     width: 400px;
     height: 400px;
 }
 .header-container-wrapper{
-    background-image: url("coffeebg.jpeg");
+    background-image: url("../images/coffeebg.jpeg");
     height: 120px;
-    width: 1500px;
+    width: 1500px;   
     display: flex;
     column-gap: 100px;
-    justify-content: center;
-
+    
 }
 .header-container-wrapper> .header-menu{
     display: flex;
-    column-gap: 25px;
+    column-gap: 45px;
     justify-content: last baseline;
     color: whitesmoke;
     font-size: 1.5em;
@@ -52,10 +51,13 @@ text-decoration: rgb(250, 255, 240);
     font-size: 1em;
     color: whitesmoke;
     margin-top: 50px;
+
 }
+
 .header-container-wrapper>.header-logo> .logo{
-width: 150px;
-height: 120px;
+    margin-left: 10px;
+    width: 150px;
+    height: 120px;
 }
 .about-logo{
     width: 150px;
@@ -85,7 +87,7 @@ h4.staff-name{
 .footer-banner{
     display: flex;
     justify-content: center;
-    background-image: url(coffeebg.jpeg);
+    background-image: url(../images/coffeebg.jpeg);
     height: 100px;
     width: 1500px;
 }
